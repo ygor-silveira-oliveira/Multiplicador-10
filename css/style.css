@@ -1,0 +1,63 @@
+body{
+    height: 94vh;
+    background-color: black;
+    background-image: url('../img/sala.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;/*posiciona no meio*/
+    background-size: cover;/*cobre a tela inteira*/
+    font: normal 15pt Arial;
+  }
+  header{
+    color: white;
+    text-align: center;
+  }
+  section{
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    font-style: italic;
+    box-shadow: 8px 5px 7px black;
+    border: 2px solid white;
+    background: linear-gradient(to right, rgb(19, 73, 12),  rgb(116, 105, 58));
+    
+  }
+  #txtnum{
+    border-radius: 10px;
+    font-family: Arial;
+    font-style: italic;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    background: transparent;
+    outline: none;
+  }
+  #txtcal{
+    border-radius: 500px;
+    margin: 30px 15px;
+    padding: 6px 13px;
+    font-family: Arial;
+    font-style: italic;
+    color: white;
+    border: 3px solid white;
+    background: transparent;
+  }
+  #txtcal:hover{
+    transition: 1.5s;
+    background-color: white;
+    color: rgb(116, 105, 58);
+    font-size: 14px;
+    border-color: #F5F5DC;
+    cursor: pointer;
+  }
+  footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+  }
+  #res{
+    text-align: center;
+    font: italic bold 25px Arial;
+  }
